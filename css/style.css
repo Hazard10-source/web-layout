@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.logo {
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .highlight a {
+    color: red;
+    font-weight: bold;
+}
+
+nav .image {
+    width: 60px;
+    height: 60px;
+}
+
+nav .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#showcase {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+} 
+
+#showcase p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: beige;
+    width: 100%;
+    height: 250px;
+}
+
+.box {
+    width: 35%;
+}
+
+.background-image {
+    display: flex;
+    width: 65%;
+    height: 250px;
+}
+
+.button_1 {
+    height: 38px;
+    background: orangered;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.row {
+    display: flex;
+    background-color: beige;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 200px;
+    
+    justify-items: center;
+    text-align: center;
+}
+
+.row p {
+    padding-top: 1rem;
+}
+
+.column:hover {
+    background: orangered;
+    color: white;
+}
+
+.column {
+    padding: 20px 15px;
+    justify-content: center;
+}
+
+.img {
+    width: 33.33%;
+}
+
+.column-3 {
+    width: 25%;
+}
+
+.column-4 {
+    width: 33.33%;
+}
+
+.test {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+
+.test-1 {
+    display: flex;
+    padding-left: 52rem;
+}
+
+.row-2 {
+    display: flex;
+    background-color: beige;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 200px;
+    justify-items: center;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.row-3 {
+    display: flex;
+    background-color: beige;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 100px;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.row-3 h3 {
+    padding-left: 4rem;
+}
+
+.blog {
+    margin-left: 5rem;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(71, 64, 64);
+    color: white;
+    height: 200px;
+}
+
+.wrapper-1 {
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
